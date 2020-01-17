@@ -6,6 +6,7 @@ describe 'Hash of Hash (HoH)' do
       it 'returns a Hash' do
         expect(naming_system).to be_a(Hash)
       end
+    end
 
       describe 'returns a giant HoH built from the PORTION_* constants that allows' do
         it 'its third sub_category to have the label "Order"' do
